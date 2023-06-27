@@ -3,6 +3,8 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 100%;
     background-color: white;
+    color:blueviolet;
+    font-size: large;
   }
   
   header {
@@ -20,7 +22,7 @@
     
 #scoreDisplay {
     float: left;
-    color: darkcyan;
+    color: rgb(100, 0, 139);
   }
   
   #scoreDisplay:hover {
@@ -29,7 +31,7 @@
   }
   
   #timerDisplay {
-    color: darkcyan;
+    color: rgb(100, 0, 139);
     float: right;
     }
   
@@ -40,7 +42,7 @@
   }
   
   button {
-    background-color: teal;
+    background-color: rgb(100, 0, 139);
     color: white;
     width: auto;
     border-radius: 15px;
