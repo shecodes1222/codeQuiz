@@ -67,3 +67,15 @@ function setCountdownTimer() {
         }
         document.getElementById("timer").innerHTML = time;
     }
+
+// Event Listener: When user clicks Start button, start the countdown timer and quiz questions. Event listener added to each button.
+startBtn.addEventListener("click", function() {
+    quizContainer.style.display = "block";
+    homeContainer.style.display ="none";
+    countdownTimer.style.display= "block";
+    document.getElementById("score_keeper").style.display= "block";
+    document.getElementById("score").innerHTML = score;
+    setCountdownTimer();
+    setQuizQuestions();
+    time_start= true;
+});
