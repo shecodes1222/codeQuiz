@@ -24,7 +24,7 @@ let i = 0;
 // JS questions
 var questionsArray = [
     {
-        question: "Question: What is most important advantage of using JavaScript?",
+        question: "Question: What is the most important advantage of using JavaScript?",
         imageSrc: "",
         answerChoice: ["A) enhanced creativity ", "B) poor interfaces ", "C) uses mark up language ", "D) great for styling "],
         correctAnswer: 0
