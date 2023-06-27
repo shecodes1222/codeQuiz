@@ -24,10 +24,10 @@ let i = 0;
 // JS questions
 var questionsArray = [
     {
-        question: "Question: What is the HTML tag under which you can link your JavaScript page?",
+        question: "Question: What is most important advantage of using JavaScript?",
         imageSrc: "",
-        answerChoice: ["A) <console.log>", "B) <function>", "C) <js>", "D) <script>"],
-        correctAnswer: 3
+        answerChoice: ["A) enhanced creativity ", "B) poor interfaces ", "C) uses mark up language ", "D) great for styling "],
+        correctAnswer: 0
     },
     {
         question: "Question: What is JavaScript?",
