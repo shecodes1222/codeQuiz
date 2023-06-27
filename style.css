@@ -39,3 +39,17 @@
     color: black;
   }
   
+  button {
+    background-color: teal;
+    color: white;
+    width: auto;
+    border-radius: 15px;
+    height: 50px;
+    font-size: larger;
+}
+
+.container {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
