@@ -21,3 +21,35 @@
     // question index
     let i = 0;
 
+// JS questions
+var questionsArray = [
+    {
+        question: "Question: What is the HTML tag under which you can link your JavaScript page?",
+        imageSrc: "",
+        answerChoice: ["A) <console.log>", "B) <function>", "C) <js>", "D) <script>"],
+        correctAnswer: 3
+    },
+    {
+        question: "Question: What is JavaScript?",
+        imageSrc: "",
+        answerChoice: ["A) A play", "B) a popular web scripting language thats used for client side and server side development", "C) A basic html page", "D) A styling sheet"],
+        correctAnswer: 0
+    },
+    {
+        question: "Question: What are some key features of JavaScript?",
+        imageSrc: "",
+        answerChoice: ["A) Dynamically-typed", "B) plain text language ", "C) html tags ", "D) css properties"],
+        correctAnswer: 0
+    },
+    {
+        question: "Question: How do you add comments to JavaScript code?",
+        imageSrc: "",
+        answerChoice: ["A) one forward slash symbol", "B) three forward slash symbols", "C) two forward slash symbols", "D) No slashes"],
+        correctAnswer: 2
+    },
+    {
+        question: "Question: What is a string in JavaScript?",
+        answerChoice: ["A) true or false values", "B) strictly integers", "C) stricly letters", "D) represents text, denoted by single, double quotes or backticks"],
+        correctAnswer: 4
+    }];
+    
