@@ -79,3 +79,12 @@ startBtn.addEventListener("click", function() {
     setQuizQuestions();
     time_start= true;
 });
+
+// Function to questions and multiple-choice answers
+function setQuizQuestions() {
+    questionHeading.textContent = questionsArray[i].question;
+    answerChoiceA.textContent = questionsArray[i].answerChoice[0];
+    answerChoiceB.textContent = questionsArray[i].answerChoice[1];
+    answerChoiceC.textContent = questionsArray[i].answerChoice[2];
+    answerChoiceD.textContent = questionsArray[i].answerChoice[3];
+    };
