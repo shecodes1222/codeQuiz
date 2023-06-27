@@ -53,3 +53,17 @@ var questionsArray = [
         correctAnswer: 4
     }];
     
+//Countdown timer function
+var countdownTimerInterval = setInterval(setCountdownTimer, 1000);
+
+//if then statements for timer being less than or equal to 0 or if timer is equal to 0
+function setCountdownTimer() {
+        if (time_start)
+        time--;
+        if(time<= 0) {
+        end_quiz();
+        time = 0;    
+        // clear time interval, alert user and end quiz
+        }
+        document.getElementById("timer").innerHTML = time;
+    }
